@@ -321,7 +321,11 @@ document.appendChild(table).appendChild(tbo).appendChild(tro).appendChild(td);
 
 }
 // CHAP 52-57
-
+function zoom(e){
+    var img=document.getElementById('modalImg');
+    img.src=e.src;
+    
+}
 
 //   chap58-67
 // ans1
